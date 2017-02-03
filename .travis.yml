@@ -1,0 +1,4 @@
+language: csharp
+solution: TestXamarinSoluction.sln
+install:
+  - nuget restore TestXamarinSoluction.sln
