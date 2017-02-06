@@ -1,0 +1,6 @@
+language: csharp
+mono:
+  - latest
+solution: TestXamarinSoluction.sln
+install:
+  - nuget restore TestXamarinSoluction.sln
